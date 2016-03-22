@@ -1,2 +1,2 @@
 # pattern_recognition
-Data Whitening, Naive Bayes, Maximum Likelihood, Bayesian Estimation, Cross-validation Testing.
+Multi-dimensional Data Whitening, Naive Bayes, Maximum Likelihood, Bayesian Estimation, Cross-validation Testing & Data Visualization.
