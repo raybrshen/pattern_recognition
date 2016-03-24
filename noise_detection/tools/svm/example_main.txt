@@ -1,0 +1,94 @@
+#include <cstring>
+#include <cmath>
+#include <cstdio>
+#include <map>
+#include <string>
+
+#include "./libsvm/svm.h"
+#include "./libsvm/SvmScale.h"
+#include "./libsvm/SvmTrain.h"
+#include "./libsvm/SvmPredict.h"
+
+
+using namespace std;
+
+
+void process()
+{
+}
+
+int main(int argc,char **argv)
+{
+/*
+	// printing command line auguments
+    printf("%d\n", argc);
+    for(int i=0; i<argc; ++i)
+    {
+        printf("%s\n", argv[i]);
+    }
+*/
+
+/*
+	// the preprocessing code was for openFrameworks, so this may need to be modified according to framework
+	string comm;
+
+	// extract features
+	comm = ofToDataPath(workingFolder+opensmileExecutable);
+	comm += " -C " + ofToDataPath(workingFolder+opensmileConfigFile);
+	comm += " -I " + ofToDataPath(workingFolder+testingData+".wav");
+	comm += " -O " + ofToDataPath(workingFolder+testingData+".arff");
+	//ofSystemAlertDialog(comm);
+	ofSystem(comm);
+
+	// format features
+	comm = ofToDataPath(workingFolder+formatPythonFile);
+	comm += " " + ofToDataPath(workingFolder+testingData+".arff");
+	comm += " " + ofToDataPath(workingFolder+testingData+".rawdata");
+	//ofSystemAlertDialog(comm);
+	ofSystem(comm);
+*/
+
+/*
+	// scale training data
+    SvmScale svmScale;
+    svmScale.scale_save("/home/user/Desktop/Experiment/Temp/training_set");
+*/
+
+/*
+	// train a classification model with scaled training data
+    SvmTrain svmTrain;
+    svmTrain.train("/home/user/Desktop/Experiment/Temp/training_set");
+*/
+
+/*
+	// scale testing data with the same range as training data
+    SvmScale svmScale;
+    svmScale.scale_restore("/home/user/Desktop/Experiment/Temp/testing_set", "/home/user/Desktop/Experiment/Temp/training_set");
+*/
+
+/*
+	// predict testing data label with the trained model
+    SvmPredict svmPredict;
+    svmPredict.predict("/home/user/Desktop/Experiment/Temp/testing_set", "/home/user/Desktop/Experiment/Temp/training_set");
+    printf("predict result: %lf\n", svmPredict.last_predicted_label);
+*/
+
+/*
+	// some trivial codes for redirecting stdout and reset it back
+    string str = "1.234e-03:1.23456789e+10";
+    float f = 1.234e-02;
+    double d = 1.23456789e+20;
+    sscanf(str.c_str(), "%f:%lf", &f, &d);
+
+    int stdout_bk = dup(STDOUT_FILENO);
+    FILE* fp = freopen("redirect_file", "w", stdout);
+
+    printf("redirect\n%e\n%e\n", f, d);
+
+    fclose(fp);
+    stdout = fdopen(stdout_bk, "w");
+
+    printf("direct_back\n%e\n%e\n", f, d);
+*/
+
+}
