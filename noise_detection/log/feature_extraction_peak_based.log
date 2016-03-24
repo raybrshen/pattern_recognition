@@ -1,0 +1,17 @@
+================================================================================
+=> feature_extraction_peak_based.lua 2015-12-11 14:00:51
+=> concatenating audios
+| data/training/noise/noise-04.wav (1547520)
+| data/training/noise/noise-03.wav (1457760)
+| data/training/noise/noise-05.wav (600720)
+| data/training/noise/noise-02.wav (354480)
+| data/training/noise/noise-01.wav (1564800)
+=> saving concatenated audio to: data/training/noise_concatenated.wav
+=> processing concatenated noise signal
+=> saving Audacity labels to: data/training/noise_concatenated.label
+=> processing audio of negative examples
+| data/training/speech_concatenated.wav (477948)
+=> saving binary training data to: data/training/training_set_2.dat
+| positive samples: 1800
+| negative samples: 2983
+<= feature_extraction_peak_based.lua 2015-1211 14:00:52
