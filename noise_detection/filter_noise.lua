@@ -14,8 +14,8 @@ local model = loaded.model
 local data_mean = loaded.mean
 local data_std = loaded.std
 
-from_dir = '/home/user/Desktop/Experiment/ASR_Noise_Filtering/test_20151113_clap_mix_16000/danilo/'
-to_dir = '/home/user/Desktop/Experiment/ASR_Noise_Filtering/test_20151113_clap_filter_mlp/danilo/'
+from_dir = 'test_20151113_clap_mix_16000/'
+to_dir = 'test_20151113_clap_filter_mlp/'
 for file in io.popen('find '..from_dir..' -type f -name \'*.wav\''):lines() do
 	-- load the audio file
 	local signal, sr = audio.load(file)
@@ -77,8 +77,8 @@ end
 
 
 
-from_dir = '/home/user/Desktop/Experiment/ASR_Noise_Filtering/test_20151113_clap_mix_16000/randy/'
-to_dir = '/home/user/Desktop/Experiment/ASR_Noise_Filtering/test_20151113_clap_filter_mlp/randy/'
+from_dir = 'test_20151113_clap_mix_16000/'
+to_dir = 'test_20151113_clap_filter_mlp/'
 for file in io.popen('find '..from_dir..' -type f -name \'*.wav\''):lines() do
 	-- load the audio file
 	local signal, sr = audio.load(file)
