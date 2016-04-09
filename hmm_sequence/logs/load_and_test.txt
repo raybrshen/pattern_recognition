@@ -1,0 +1,22 @@
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py" --multiproc --qt-support --client 127.0.0.1 --port 53162 --file /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/hmm_sequence_recognizer.py
+warning: Debugger speedups using cython not found. Run '"/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" "/Applications/PyCharm CE.app/Contents/helpers/pydev/setup_cython.py" build_ext --inplace' to build.
+pydev debugger: process 15115 is connecting
+
+Connected to pydev debugger (build 145.260)
+=> loading tagger...
+|  done
+=> adding HMM model 'declarative'...
+|  done
+=> adding HMM model 'imperative'...
+|  done
+=> adding HMM model 'interrogative'...
+|  done
+number of hmm: 3
+predicting: what day is it today
+result: interrogative(2)
+predicting: i have an apple
+result: imperative(1)
+predicting: please raise up your hand
+result: imperative(1)
+
+Process finished with exit code 0

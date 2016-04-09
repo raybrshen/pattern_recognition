@@ -1,0 +1,300 @@
+Can you park nearby?
+Will you go to the ballgame with me?
+Can you find my umbrella?
+What happened?
+Where do you work?
+Who won the Cup Final in 1997?
+Should I telephone you or send an email?
+Do you want tea, coffee, or espresso?
+Is this your book?
+Did you receive my message?
+Have you found a new job yet?
+What is your name?
+Where are you going?
+Whose book is this?
+Why are you late today?
+What is your hobby?
+Who broke the chair?
+Where is your hostel?
+Do you know cycling?
+Have you seen the Taj?
+Do you prefer tea or coffee?
+How many students are there?
+What is the distance between New York and Mexico?
+What is the capital of Japan?
+Where are you from?
+Why are you here?
+What do you like to eat for breakfast?
+Where is your father?
+Did you take your vitamin this morning?
+Do you have your homework ready?
+Are you ready to go?
+Did you go to the game Friday night?
+Would you prefer chocolate or vanilla ice cream?
+Should I call or email you?
+Do you want coffee, tea, or soda?
+What are you doing?
+Where do you live?
+Who is playing in the Super Bowl?
+What is the meaning of this?
+Which songs do you like best?
+You live in the city, don’t you?
+We need to get going now, don’t we?
+There’s a game on today, isn’t there?
+You’re coming to the party, aren’t you?
+Did you clean up your room? You cleaned up your room.
+Has Jack come to visit? Jack has come to visit.
+Is this Jill’s wallet?  This is Jill’s wallet.
+Has anyone seen my torch?
+What's the capital of Peru?
+I wonder if I'll ever find my torch.
+Can you tell me what material she likes?
+Could you fetch me when the alarm beeps?
+Did she ask whether I found my torch?
+Is it raining?
+Why are you bored?
+Do you want salsa dip or cheese dip?
+Where are you?
+What book does he want?
+Who likes chips?
+How many people are coming?
+Did Nina sleep well?
+How did it get so late so soon?
+Are my kids cute or do they make people uncomfortable?
+Where do you want to go today?
+Now, who wants to save the world?
+What is the use of a house if you haven't got a tolerable planet to put it on?
+Are you a good witch or a bad witch?
+Why is a raven like a writing-desk?
+You want to know how I do it?
+What if the dinosaurs come back while we're all asleep?
+why do they keep score?
+How do you spell relief?
+Who are you?
+Is This a Yes-No Question?
+Is This a Direct Question in English Grammar?
+How do you do?
+What do you do for a living?
+How do you find time to do all that you do?
+What do you want?
+Where did Cheeta put the bananas?
+Do you enjoy listening to lectures?
+Does anybody know what time it is?
+Did your sister go out this morning?
+What mistaken pronunciation gave this character its name?
+Where are the brownies?
+Did you buy eggs today?
+Have you brushed your teeth yet?
+Is your house ready for visitors?
+Have you brushed your teeth today?
+Is this your jacket?
+Where is your house?	
+When did you brush your teeth?	
+How do I zip your jacket?	
+Who is cooking the brownies?
+What was your name?
+What happened?
+Where do you work?
+Who won the Cup Final in 1997?
+Should I telephone you or send an email?
+Do you want tea, coffee, or espresso?
+I have no gate key.
+That will teach you to keep your mouth shut.
+You have been the veterans of creative suffering.
+A foolish consistency is the hobgoblin of little minds
+There are five million people at risk.
+London is the capital of England.
+I am no wine connoisseur, but I know what I like.
+She asked whether I liked her dress.
+David plays the piano
+I hope you can come tomorrow
+We've forgotten the milk
+Parrot is a beautiful bird.
+Mohan planned a tour.
+The Ganges is a holy river.
+Ganguli is a fine batsman.
+My father started a business.
+Sekar won the game.
+Madurai is a temple city.
+The teacher punished the student.
+Gandhiji is the father of our nation.
+India became free in 1947.
+We are not your friends.
+He is my father.
+The distance between India and Japan is 8000 kms.
+They have come to buy a car.
+You are not in this team.
+She is the captain of this team.
+The Pritchetts work much harder than we do.
+Gloria drives much faster than Jay does.
+Your house is where.
+You did brush your teeth when.
+I do zip your jacket how.
+She is a doctor.
+They have a car.
+She will be sleeping.
+I will be lying on the beach.
+He will be working in the garden.
+She will be cleaning the rooms.
+The students will be studying hard.
+There are five million people at risk.
+London is the capital of England.
+I am no wine connoisseur, but I know what I like.
+She asked whether I liked her dress.
+We have broccoli in the refrigerator.
+It's 67 degrees outside.
+I see the birds in the air.
+I don't see birds in the air.
+He made a waffle for breakfast.
+We could not find the missing earring.
+The cat wouldn't go into its carrier.
+I like cats.
+I haven't left the house since this morning.
+The best goodbyes are short.
+We rob banks
+You can get help from teachers.
+You aren't lazy.
+David plays the piano
+I hope you can come tomorrow
+We've forgotten the milk
+My coat is red.
+I have an appointment at 2:00 today.
+Tomorrow I leave for France.
+I told him dinner will be served promptly at six.
+It’s a nice day for a walk along the beach.
+I think you should wear the blue shirt with the khaki pants.
+We’re going to the movies later this evening.
+After the snow storm, the air smelled fresh and clean.
+The grass is green normally.
+Roads are made from asphalt.
+Holly was an alcoholic and had reached the point where she no longer bathed or combed her hair.
+The molten lava spewed from the volcano and wiped out the village.
+I like sleeping.
+Yesterday, I slept through my alarm.
+Peter Pan protected a group of young orphans	
+Ivy and I are going to the park.
+I am studying my lesson.
+I eat vegetables.
+My mom cooks food everyday.
+My cousin and I are going to the market to buy food.
+My English teacher is very kind.
+I take a bath every day.
+I always comb my hair.
+My classmate and I read the story.
+My cousin is always noisy.
+I was late for school.
+My father is a doctor.
+Pam likes snow.
+I am so excited!
+Our team won first place!
+Ahh! You scared me!
+The cat sits on the mat.
+I started to laugh.
+That cloud looks like a fish.
+My cat chases rabbits.
+Harry Potter is the boy who lived.
+Her brother has lived in Alabama for seven years.
+A tornado destroyed the grain bins.
+Duck and Goose were arguing over the ball.
+The trains leaves tomorrow promptly at noon.
+I like to read.
+Please find my yellow leotard.
+Shut the door!
+Be there at 5:00.
+Enjoy some fresh strawberries.
+Give me a few weeks to make up my mind.
+Feel free to text me later.
+Don't eat my strawberries.
+Don't wait for my answer.
+Don't text me.
+Send me that email.
+Pass the potatoes.
+Take me out to the ballgame.
+Park in the lot nearby.
+Put an egg in your shoe.
+beat it.
+Make like a tree, and leave.
+Tell your story walking.
+Keep your accessories with you at all times.
+Go ahead.
+Always do right.
+Give us the gate key.
+Tear his arms off.
+Take me out to the ball game.
+Take me out with the crowd.
+Buy me some peanuts and Cracker Jack.
+I don't care if I never get back.
+Seek simplicity.
+Distrust it.
+Ask what your country can do for you.
+Ask what you can do for your country.
+Don't cry because it's over.
+Smile because it happened.
+Take this quarter.
+Go downtown.
+Have a rat gnaw that thing off your face!
+Take, if you must, this little bag of dreams.
+Unloose the cord, and they will wrap you round.
+Seize the day, boys.
+Make your lives extraordinary.
+Always do sober what you said you'd do drunk.
+Continue to work with the faith that unearned suffering is redemptive.
+Go back to Mississippi.
+Go back to Alabama.
+Go back to South Carolina.
+Go back to Georgia.
+Go back to Louisiana.
+Go back to the slums and ghettos of our northern cities.
+Forget them, Wendy.
+Forget them all.
+Come with me where you'll never, never have to worry about grown up things again.
+Wash the white clothes on Monday and put them on the stone heap
+Wash the color clothes on Tuesday and put them on the clothesline to dry.
+Don't walk barehead in the hot sun; cook pumpkin fritters in very hot sweet oil.
+Soak your little cloths right after you take them off.
+Don't be lazy.
+Strike a light!
+Just give me two big ones, please.
+Do take your coats off.
+Stop!
+Go.
+Pour me a glass of water.
+Leave the package at the door.
+Take me to the library.
+Walk through this door and turn left at the next hallway.
+Come over here, look at this specimen, and tell me what you think.
+Put that down now!
+Tell the truth, the whole truth and nothing but the truth.
+Honk if you like my driving.
+Don’t worry, be happy.
+Have a Coke and a smile.
+Just do it.
+Honor thy father and mother.
+Do not kill.
+Do not bear false witness against thy neighbor.
+Talk quietly.
+Walk softly, please.
+Turn off the television.
+Hang up your clothes.
+Clean your room.
+Clear this desk by tomorrow!
+Please tidy your room.
+Consider the lily.
+Drive to the roundabout and then turn left.
+Get out!
+Please leave.
+Do not condemn the judgement of another because it differs from your own.
+Fetch my umbrella!
+Please bring my umbrella.
+Leave your coat in the hall.
+Give me your phone number.
+Don't shut the door.
+Stop talking.
+March forward.
+Kindly help me.
+Work hard.
+Let us have a walk.
+Bring me a suitcase from UAE.
+Fetch a glass of water.
+Please pass the salt.
+Get out of my way!
