@@ -59,14 +59,14 @@ class HmmModel(object):
 
   def train(self, datapath, n_epoch):
     self.model = hmm.MultinomialHMM(n_components=self.n_hidden_state)
-    print '|  loading training data...'
+    # print '|  loading training data...'
     samples = self.load_samples(datapath, True)
     samples_array,samples_length = self.samples2array(samples)
-    print '|  start training'
+    # print '|  start training'
     for i in xrange(n_epoch):
-      print '|  |  training epoch %d...' % (i + 1)
+      # print '|  |  training epoch %d...' % (i + 1)
       self.model.fit(samples_array, samples_length)
-    print '|  finished training'
+    # print '|  finished training'
     return
 
   def test(self, sample):

@@ -6,3 +6,6 @@ noise_detection/data/test/*.wav
 noise_detection/data/training/*.wav
 noise_detection/data/training/*/*.wav
 
+#### python ####
+*/.idea/
+
