@@ -107,13 +107,10 @@ def batch_test():
 
 
 if __name__ == '__main__':
-
-  ret = []
   tagger = PerceptronTagger()
   ne,nhs = 1,5
   classes = ['declarative', 'imperative', 'interrogative']
-  data_path = '../data/tmp/'
-
+  data_path = '../data/origin/'
 
   acc1,acc2,acc3 = [],[],[]
 

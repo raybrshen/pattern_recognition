@@ -1,0 +1,438 @@
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.733333
+2-fold testing accuracy: 0.688889
+3-fold testing accuracy: 0.622222
+4-fold testing accuracy: 0.8
+5-fold testing accuracy: 0.711111
+6-fold testing accuracy: 0.822222
+7-fold testing accuracy: 0.8
+8-fold testing accuracy: 0.6
+9-fold testing accuracy: 0.666667
+10-fold testing accuracy: 0.688889
+		cls-1 	cls-2 	cls-3
+cls-1	112		12		26
+cls-2	19		106		25
+cls-3	25		22		103
+2-nhs overall accuracy: 0.713333
+
+Process finished with exit code 0
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.777778
+2-fold testing accuracy: 0.777778
+3-fold testing accuracy: 0.688889
+4-fold testing accuracy: 0.8
+5-fold testing accuracy: 0.711111
+6-fold testing accuracy: 0.844444
+7-fold testing accuracy: 0.777778
+8-fold testing accuracy: 0.777778
+9-fold testing accuracy: 0.666667
+10-fold testing accuracy: 0.688889
+		cls-1 	cls-2 	cls-3
+cls-1	121		13		16
+cls-2	14		122		14
+cls-3	20		35		95
+3-nhs overall accuracy: 0.751111
+
+Process finished with exit code 0
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.955556
+2-fold testing accuracy: 0.844444
+3-fold testing accuracy: 0.711111
+4-fold testing accuracy: 0.844444
+5-fold testing accuracy: 0.711111
+6-fold testing accuracy: 0.777778
+7-fold testing accuracy: 0.755556
+8-fold testing accuracy: 0.711111
+9-fold testing accuracy: 0.711111
+10-fold testing accuracy: 0.755556
+		cls-1 	cls-2 	cls-3
+cls-1	121		13		16
+cls-2	16		118		16
+cls-3	18		21		111
+4-nhs overall accuracy: 0.777778
+
+Process finished with exit code 0
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.911111
+2-fold testing accuracy: 0.8
+3-fold testing accuracy: 0.622222
+4-fold testing accuracy: 0.755556
+5-fold testing accuracy: 0.666667
+6-fold testing accuracy: 0.822222
+7-fold testing accuracy: 0.755556
+8-fold testing accuracy: 0.711111
+9-fold testing accuracy: 0.822222
+10-fold testing accuracy: 0.711111
+		cls-1 	cls-2 	cls-3
+cls-1	129		8		13
+cls-2	25		114		11
+cls-3	30		22		98
+5-nhs overall accuracy: 0.757778
+
+Process finished with exit code 0
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.933333
+2-fold testing accuracy: 0.844444
+3-fold testing accuracy: 0.711111
+4-fold testing accuracy: 0.777778
+5-fold testing accuracy: 0.755556
+6-fold testing accuracy: 0.8
+7-fold testing accuracy: 0.8
+8-fold testing accuracy: 0.666667
+9-fold testing accuracy: 0.733333
+10-fold testing accuracy: 0.711111
+		cls-1 	cls-2 	cls-3
+cls-1	130		12		8
+cls-2	22		109		19
+cls-3	25		16		109
+6-nhs overall accuracy: 0.773333
+
+Process finished with exit code 0
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.822222
+2-fold testing accuracy: 0.777778
+3-fold testing accuracy: 0.622222
+4-fold testing accuracy: 0.822222
+5-fold testing accuracy: 0.666667
+6-fold testing accuracy: 0.8
+7-fold testing accuracy: 0.777778
+8-fold testing accuracy: 0.777778
+9-fold testing accuracy: 0.622222
+10-fold testing accuracy: 0.733333
+		cls-1 	cls-2 	cls-3
+cls-1	123		12		15
+cls-2	23		114		13
+cls-3	29		24		97
+7-nhs overall accuracy: 0.742222
+
+Process finished with exit code 0
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.911111
+2-fold testing accuracy: 0.844444
+3-fold testing accuracy: 0.666667
+4-fold testing accuracy: 0.777778
+5-fold testing accuracy: 0.666667
+6-fold testing accuracy: 0.866667
+7-fold testing accuracy: 0.844444
+8-fold testing accuracy: 0.733333
+9-fold testing accuracy: 0.733333
+10-fold testing accuracy: 0.711111
+		cls-1 	cls-2 	cls-3
+cls-1	125		11		14
+cls-2	23		111		16
+cls-3	22		15		113
+8-nhs overall accuracy: 0.775556
+
+Process finished with exit code 0
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.888889
+2-fold testing accuracy: 0.755556
+3-fold testing accuracy: 0.777778
+4-fold testing accuracy: 0.844444
+5-fold testing accuracy: 0.688889
+6-fold testing accuracy: 0.822222
+7-fold testing accuracy: 0.755556
+8-fold testing accuracy: 0.733333
+9-fold testing accuracy: 0.733333
+10-fold testing accuracy: 0.733333
+		cls-1 	cls-2 	cls-3
+cls-1	136		7		7
+cls-2	24		105		21
+cls-3	22		21		107
+9-nhs overall accuracy: 0.773333
+
+Process finished with exit code 0
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.822222
+2-fold testing accuracy: 0.8
+3-fold testing accuracy: 0.711111
+4-fold testing accuracy: 0.777778
+5-fold testing accuracy: 0.755556
+6-fold testing accuracy: 0.733333
+7-fold testing accuracy: 0.8
+8-fold testing accuracy: 0.688889
+9-fold testing accuracy: 0.733333
+10-fold testing accuracy: 0.755556
+		cls-1 	cls-2 	cls-3
+cls-1	131		8		11
+cls-2	24		110		16
+cls-3	26		24		100
+10-nhs overall accuracy: 0.757778
+
+Process finished with exit code 0
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.888889
+2-fold testing accuracy: 0.711111
+3-fold testing accuracy: 0.711111
+4-fold testing accuracy: 0.8
+5-fold testing accuracy: 0.711111
+6-fold testing accuracy: 0.844444
+7-fold testing accuracy: 0.844444
+8-fold testing accuracy: 0.733333
+9-fold testing accuracy: 0.755556
+10-fold testing accuracy: 0.733333
+		cls-1 	cls-2 	cls-3
+cls-1	133		8		9
+cls-2	29		107		14
+cls-3	25		17		108
+11-nhs overall accuracy: 0.773333
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.866667
+2-fold testing accuracy: 0.866667
+3-fold testing accuracy: 0.688889
+4-fold testing accuracy: 0.888889
+5-fold testing accuracy: 0.688889
+6-fold testing accuracy: 0.777778
+7-fold testing accuracy: 0.822222
+8-fold testing accuracy: 0.733333
+9-fold testing accuracy: 0.822222
+10-fold testing accuracy: 0.733333
+		cls-1 	cls-2 	cls-3
+cls-1	134		10		6
+cls-2	19		116		15
+cls-3	25		20		105
+12-nhs overall accuracy: 0.788889
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.911111
+2-fold testing accuracy: 0.822222
+3-fold testing accuracy: 0.711111
+4-fold testing accuracy: 0.777778
+5-fold testing accuracy: 0.711111
+6-fold testing accuracy: 0.822222
+7-fold testing accuracy: 0.8
+8-fold testing accuracy: 0.688889
+9-fold testing accuracy: 0.688889
+10-fold testing accuracy: 0.733333
+		cls-1 	cls-2 	cls-3
+cls-1	129		12		9
+cls-2	24		106		20
+cls-3	22		18		110
+13-nhs overall accuracy: 0.766667
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.822222
+2-fold testing accuracy: 0.777778
+3-fold testing accuracy: 0.688889
+4-fold testing accuracy: 0.822222
+5-fold testing accuracy: 0.733333
+6-fold testing accuracy: 0.866667
+7-fold testing accuracy: 0.8
+8-fold testing accuracy: 0.777778
+9-fold testing accuracy: 0.777778
+10-fold testing accuracy: 0.755556
+		cls-1 	cls-2 	cls-3
+cls-1	135		6		9
+cls-2	26		112		12
+cls-3	26		19		105
+14-nhs overall accuracy: 0.782222
+
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.911111
+2-fold testing accuracy: 0.777778
+3-fold testing accuracy: 0.622222
+4-fold testing accuracy: 0.755556
+5-fold testing accuracy: 0.733333
+6-fold testing accuracy: 0.8
+7-fold testing accuracy: 0.844444
+8-fold testing accuracy: 0.8
+9-fold testing accuracy: 0.755556
+10-fold testing accuracy: 0.733333
+		cls-1 	cls-2 	cls-3
+cls-1	129		10		11
+cls-2	25		113		12
+cls-3	23		21		106
+15-nhs overall accuracy: 0.773333
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.933333
+2-fold testing accuracy: 0.755556
+3-fold testing accuracy: 0.644444
+4-fold testing accuracy: 0.844444
+5-fold testing accuracy: 0.777778
+6-fold testing accuracy: 0.866667
+7-fold testing accuracy: 0.844444
+8-fold testing accuracy: 0.688889
+9-fold testing accuracy: 0.733333
+10-fold testing accuracy: 0.711111
+		cls-1 	cls-2 	cls-3
+cls-1	132		9		9
+cls-2	20		118		12
+cls-3	30		19		101
+16-nhs overall accuracy: 0.78
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.888889
+2-fold testing accuracy: 0.777778
+3-fold testing accuracy: 0.6
+4-fold testing accuracy: 0.844444
+5-fold testing accuracy: 0.666667
+6-fold testing accuracy: 0.822222
+7-fold testing accuracy: 0.777778
+8-fold testing accuracy: 0.777778
+9-fold testing accuracy: 0.8
+10-fold testing accuracy: 0.8
+		cls-1 	cls-2 	cls-3
+cls-1	134		11		5
+cls-2	21		117		12
+cls-3	29		23		98
+17-nhs overall accuracy: 0.775556
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.955556
+2-fold testing accuracy: 0.844444
+3-fold testing accuracy: 0.733333
+4-fold testing accuracy: 0.755556
+5-fold testing accuracy: 0.711111
+6-fold testing accuracy: 0.8
+7-fold testing accuracy: 0.822222
+8-fold testing accuracy: 0.733333
+9-fold testing accuracy: 0.844444
+10-fold testing accuracy: 0.733333
+		cls-1 	cls-2 	cls-3
+cls-1	135		10		5
+cls-2	21		118		11
+cls-3	26		20		104
+18-nhs overall accuracy: 0.793333
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.911111
+2-fold testing accuracy: 0.755556
+3-fold testing accuracy: 0.733333
+4-fold testing accuracy: 0.777778
+5-fold testing accuracy: 0.755556
+6-fold testing accuracy: 0.844444
+7-fold testing accuracy: 0.888889
+8-fold testing accuracy: 0.711111
+9-fold testing accuracy: 0.666667
+10-fold testing accuracy: 0.733333
+		cls-1 	cls-2 	cls-3
+cls-1	136		6		8
+cls-2	29		112		9
+cls-3	29		19		102
+19-nhs overall accuracy: 0.777778
+
+----------
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/Ray/Documents/Dev/pattern_recognition/hmm_sequence/scripts/cross_validation.py
+loading tagger...
+['../data/origin/tag_declarative.txt', '../data/origin/tag_imperative.txt', '../data/origin/tag_interrogative.txt']
+cross-validation...
+1-fold testing accuracy: 0.911111
+2-fold testing accuracy: 0.733333
+3-fold testing accuracy: 0.644444
+4-fold testing accuracy: 0.755556
+5-fold testing accuracy: 0.688889
+6-fold testing accuracy: 0.755556
+7-fold testing accuracy: 0.822222
+8-fold testing accuracy: 0.733333
+9-fold testing accuracy: 0.733333
+10-fold testing accuracy: 0.755556
+		cls-1 	cls-2 	cls-3
+cls-1	135		7		8
+cls-2	31		107		12
+cls-3	32		21		97
+20-nhs overall accuracy: 0.753333
+
+----------
+
+[0.713333, 0.751111, 0.777778, 0.757778, 0.773333, 0.742222, 0.775556, 0.773333, 0.757778, 0.773333, 0.788889, 0.7666666666666667, 0.7822222222222223, 0.7733333333333333, 0.78, 0.7755555555555556, 0.7933333333333333, 0.7777777777777778, 0.7533333333333333]

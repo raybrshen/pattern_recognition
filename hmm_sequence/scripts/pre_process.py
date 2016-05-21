@@ -3,74 +3,43 @@
 #
 
 import os, nltk
+from nltk import word_tokenize
 from nltk.corpus import wordnet as wn
-
+from nltk.tag.perceptron import PerceptronTagger
 
 
 TAG_SET_PATH = 'help/tagsets/upenn_tagset.pickle'
-ROOT_PATH = '../Data/sentence/'
+ROOT_PATH = '../data/'
 
 
 def pos_tag(text):
   # print text
-  tokens = nltk.word_tokenize(text)
-  # print tokens
-  tags = nltk.pos_tag(tokens)
+  tags = tagger.tag(word_tokenize(text))
   # print tags
-  # print [t[1] for t in tags]
   return [t[1] for t in tags]
 
 def list_files(path, startswith=''):
-  files = []
+  ret = []
   for (dirpath, dirnames, filenames) in os.walk(path):
     for filename in filenames:
       if startswith and not filename.startswith(startswith): continue
-      files.append(dirpath+'/'+filename)
-  return files
+      ret.append(dirpath+'/'+filename)
+  return ret
 
 def wordnet_tmp():
   word = 'see'
   print(wn.synset(word+'.v.01').definition())
   return
 
-def sentence2tag():
-  files = list_files(ROOT_PATH + 'origin')
-  f_train = open(ROOT_PATH + 'without_punctuation/train_tag.txt', 'w')
-  f_test = open(ROOT_PATH + 'without_punctuation/test_tag.txt', 'w')
-  f_train_text = open(ROOT_PATH + 'without_punctuation/train_text.txt', 'w')
-  f_test_text = open(ROOT_PATH + 'without_punctuation/test_text.txt', 'w')
-  for idx, filename in enumerate(files):
-    print filename
-    fr = open(filename, 'r')
-    lines = fr.readlines()
-    fr.close()
-    # fw = open(path+'/tag_'+os.path.basename(filename), 'w')
-    i = 0
-    for line in lines:
-      tags = [tag for tag in pos_tag(line) if tag[0].isalpha()]
-      tagline = ' '.join(tags) + ' ' + str(idx)
-      if i < 100:
-        f_train.write(tagline + '\n'); f_train_text.write(line)
-      else:
-        f_test.write(tagline + '\n'); f_test_text.write(line)
-      i += 1
-      # fw.close()
-  f_train.close()
-  f_test.close()
-  f_train_text.close()
-  f_test_text.close()
+def sentence2tags(in_file, out_file):
+  fin,fout = open(in_file,'r'),open(out_file, 'w')
+  lines = fin.readlines()
+  for line in lines:
+    tags = [tag for tag in pos_tag(line) if tag[0].isalpha()]
+    fout.write(' '.join(tags)+'\n')
+  fin.close()
+  fout.close()
   return
-
-def append_epsilons():
-  read_path = ROOT_PATH + 'without_punctuation/'
-  write_path = ROOT_PATH
-  files = ('train_tag.txt', 'test_tag.txt')
-  for fn in files:
-    print read_path+fn
-    with open(read_path+fn, 'r') as fr: lines=fr.readlines()
-    with open(write_path+fn, 'w') as fw:
-      for line in lines: fw.write('EPS EPS '+line)
-    return
 
 def get_tag2id():
   tag_dict = nltk.data.load(TAG_SET_PATH)
@@ -82,9 +51,13 @@ def get_tag2id():
 
 
 if __name__ == '__main__':
-  _t2i = get_tag2id()
-  print len(_t2i)
-  for k,v in _t2i.iteritems(): print k,v
+  tagger = PerceptronTagger()
+  files = list_files(ROOT_PATH+'origin')
+  for fn in files:
+    print fn
+    _dir,_base = os.path.dirname(fn),os.path.basename(fn)
+    sentence2tags(fn,_dir+'/tag_'+_base)
+
 
 # if __name__ == '__main__':
   # pos_tag('hello word, i went to the library today.')

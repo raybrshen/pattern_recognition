@@ -7,7 +7,6 @@ Who won the Cup Final in 1997?
 Should I telephone you or send an email?
 Do you want tea, coffee, or espresso?
 Is this your book?
-Did you receive my message?
 Have you found a new job yet?
 What is your name?
 Where are you going?
@@ -94,7 +93,6 @@ How do I zip your jacket?
 Who is cooking the brownies?
 What was your name?
 What happened?
-Where do you work?
 Who won the Cup Final in 1997?
 Should I telephone you or send an email?
 Do you want tea, coffee, or espresso?
@@ -148,8 +146,5 @@ Would you like some more tea?
 What happened?
 How did you do that?
 Where did you go?
-What are you doing?
-What is your name?
-Where do you live?
 Who is your father?
 Can you solve this problem?

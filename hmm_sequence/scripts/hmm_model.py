@@ -15,6 +15,25 @@ class HmmModel(object):
     self.n_hidden_state = nhs
     return
 
+  def load_samples_from_arr(self, arr, update):
+    samples = []
+    if update:
+      self.n_state = 0
+      self.tag2idx, self.idx2tag = {}, {}
+    for tags in arr:
+      if update:
+        sample = []
+        for tag in tags:
+          if tag not in self.tag2idx:
+            self.tag2idx[tag] = self.n_state
+            self.idx2tag[self.n_state] = tag
+            self.n_state += 1
+          sample.append(tag)
+      else:
+        sample = [tag for tag in tags if tag in self.tag2idx]
+      samples.append(sample)
+    return samples
+
   def load_samples(self, datapath, update=False):
     samples = []
     # reset if required
@@ -69,6 +88,12 @@ class HmmModel(object):
     # print '|  finished training'
     return
 
+  def train_from_samples(self, samples):
+    self.model = hmm.MultinomialHMM(n_components=self.n_hidden_state)
+    samples_array, samples_length = self.samples2array(samples)
+    self.model.fit(samples_array, samples_length)
+    return
+
   def test(self, sample):
     sa,l = self.samples2array(sample)
     # if none of the tags in the sample exist in current model's tag set
@@ -77,7 +102,6 @@ class HmmModel(object):
     sa = np.array(sa)
     prob,_ = self.model.decode(sa,l)
     return prob
-
 
 
 if __name__ == '__main__':
